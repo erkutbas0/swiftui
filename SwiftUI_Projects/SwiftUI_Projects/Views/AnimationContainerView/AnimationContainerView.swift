@@ -32,7 +32,7 @@ struct AnimationContainerView: View {
     private func route(with routerType: RouteForAnimationContainers) -> some View {
         switch routerType {
         case .animationViews(let animationRelatedViewsData):
-            Text("Zoko")
+            CircularSliderView()
         case .dynamicIslandViews(let dynamicIslandAnimationsData):
             Text("Moko")
         }

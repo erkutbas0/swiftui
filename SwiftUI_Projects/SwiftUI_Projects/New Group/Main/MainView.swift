@@ -17,7 +17,7 @@ struct MainView: View {
             selection: $selectedTab,
             content: {
 
-                Text("First Tab")
+                AnimationContainerView()
                     .tabItem {
                         Label("First", systemImage: "1.circle")
                     }
